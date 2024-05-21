@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Профиль" />
+
+    <item
+        android:id="@+id/nav_bulletin_board"
+        android:icon="@drawable/ic_bulletin_board"
+        android:title="Доска объявлений" />
+
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/ic_chats"
+        android:title="Чаты" />
+
+    <!-- Новый элемент Выход -->
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Выход из аккаунта" />
+</menu>

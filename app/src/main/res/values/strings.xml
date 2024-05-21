@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TutoringSystem</string>
+    <string name="menu_button_description">Menu button</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="update_name_button">Обновить имя профиля</string>
+    <string name="username_already_taken">Имя пользователя уже занято</string>
+    <string name="profile_updated_successfully">Имя пользователя обновлено успешно</string>
+    <string name="open_navigation_drawer">Открыть навигационное меню</string>
+</resources>

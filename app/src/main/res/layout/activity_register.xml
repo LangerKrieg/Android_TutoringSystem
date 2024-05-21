@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Приветствие -->
+    <TextView
+        android:id="@+id/register_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:textColor="#FFC107"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Поле ввода имени пользователя -->
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя пользователя"
+        android:background="@drawable/white_outline_edit_text"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Поле ввода пароля -->
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:background="@drawable/white_outline_edit_text"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка регистрации -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_button_style"
+        android:text="ЗАРЕГИСТРИРОВАТЬСЯ"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
+</LinearLayout>
